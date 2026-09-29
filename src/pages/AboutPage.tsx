@@ -63,7 +63,7 @@ export function AboutPage() {
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <h1 className="mb-4 text-white">About Thirdeye Agri Automation</h1>
-          <p className="text-xl max-w-3xl mx-auto">
+          <p className="text-xl max-w-3xl mx-auto text-secondary-text-light">
             Leading the transformation of agriculture through innovative irrigation and automation technology
           </p>
         </div>

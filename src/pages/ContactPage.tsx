@@ -66,7 +66,7 @@ export function ContactPage() {
       <section className="bg-gradient-to-r from-green-600 to-blue-600 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="mb-4 text-white">Get in Touch</h1>
-          <p className="text-xl max-w-3xl mx-auto">
+          <p className="text-xl max-w-3xl mx-auto text-secondary-text-light">
             Have questions? Our team of irrigation experts is here to help you find the perfect solution for your farm
           </p>
         </div>

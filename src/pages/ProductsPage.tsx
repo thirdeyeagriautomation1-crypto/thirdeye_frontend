@@ -236,7 +236,7 @@ export function ProductsPage() {
             </div>
           )}
           <h1 className="mb-4 text-white">Our Products & Solutions</h1>
-          <p className="text-xl max-w-3xl mx-auto">
+          <p className="text-xl max-w-3xl mx-auto text-secondary-text-light">
             Explore our comprehensive range of smart irrigation and fertigation automation systems
           </p>
         </div>

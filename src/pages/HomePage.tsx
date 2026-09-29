@@ -18,7 +18,7 @@ export function HomePage() {
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <h1 className="mb-6 text-white">Smart Farming. Smarter Water.</h1>
-          <p className="text-xl mb-8 max-w-3xl mx-auto">
+          <p className="text-xl mb-8 max-w-3xl mx-auto text-secondary-text-light">
             Transform your agricultural operations with cutting-edge irrigation and fertigation automation systems. 
             Save water, increase yields, and maximize efficiency.
           </p>
@@ -182,7 +182,7 @@ export function HomePage() {
       <section className="py-16 bg-gradient-to-r from-green-600 to-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="mb-4 text-white">Ready to Transform Your Farm?</h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
+          <p className="text-xl mb-8 max-w-2xl mx-auto text-secondary-text-light">
             Get in touch with our experts to discuss your irrigation needs and receive a customized solution
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

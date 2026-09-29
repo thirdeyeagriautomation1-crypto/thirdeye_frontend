@@ -4,7 +4,13 @@
 
 @theme {
   --font-sans: "Nunito", sans-serif;
+  --font-primary: "Nunito", sans-serif;
   --font-secondary: "Roboto", sans-serif;
+
+  --color-primary-text: var(--primary-text);
+  --color-secondary-text: var(--secondary-text);
+  --color-primary-text-light: var(--primary-text-light);
+  --color-secondary-text-light: var(--secondary-text-light);
   
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -42,6 +48,10 @@
     --font-size: 16px;
     --background: #ffffff;
     --foreground: #030213;
+    --primary-text: #030213;
+    --secondary-text: #4b5563;
+    --primary-text-light: #ffffff;
+    --secondary-text-light: #f3f4f6;
     --card: #ffffff;
     --card-foreground: #030213;
     --popover: #ffffff;
@@ -82,6 +92,10 @@
   .dark {
     --background: oklch(0.145 0 0);
     --foreground: oklch(0.985 0 0);
+    --primary-text: oklch(0.985 0 0);
+    --secondary-text: oklch(0.708 0 0);
+    --primary-text-light: oklch(0.985 0 0);
+    --secondary-text-light: oklch(0.985 0 0);
     --card: oklch(0.145 0 0);
     --card-foreground: oklch(0.985 0 0);
     --popover: oklch(0.145 0 0);
@@ -121,7 +135,7 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans;
+    @apply bg-background text-secondary-text font-secondary;
   }
 
   html {
@@ -129,36 +143,42 @@
   }
   
   h1 {
+    @apply font-primary text-primary-text;
     font-size: 1.5rem;
     font-weight: var(--font-weight-medium);
     line-height: 1.5;
   }
 
   h2 {
+    @apply font-primary text-primary-text;
     font-size: 1.25rem;
     font-weight: var(--font-weight-medium);
     line-height: 1.5;
   }
 
   h3 {
+    @apply font-primary text-primary-text;
     font-size: 1.125rem;
     font-weight: var(--font-weight-medium);
     line-height: 1.5;
   }
 
   h4 {
+    @apply font-primary text-primary-text;
     font-size: 1rem;
     font-weight: var(--font-weight-medium);
     line-height: 1.5;
   }
 
   p, label, button, input {
+    @apply font-secondary text-secondary-text;
     font-size: 1rem;
     font-weight: var(--font-weight-normal);
     line-height: 1.5;
   }
 
   label, button {
+    @apply font-primary;
     font-weight: var(--font-weight-medium);
   }
 }

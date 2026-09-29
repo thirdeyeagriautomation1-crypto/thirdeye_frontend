@@ -91,7 +91,7 @@ export function CaseStudiesPage() {
       <section className="bg-gradient-to-r from-green-600 to-blue-600 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="mb-4 text-white">Success Stories</h1>
-          <p className="text-xl max-w-3xl mx-auto">
+          <p className="text-xl max-w-3xl mx-auto text-secondary-text-light">
             Real results from farms that have transformed their operations with our smart irrigation solutions
           </p>
         </div>
@@ -201,7 +201,7 @@ export function CaseStudiesPage() {
       <section className="py-16 bg-gradient-to-r from-green-600 to-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="mb-4 text-white">Ready to Write Your Success Story?</h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
+          <p className="text-xl mb-8 max-w-2xl mx-auto text-secondary-text-light">
             Join thousands of satisfied farmers who have transformed their operations with our smart irrigation solutions
           </p>
           <a

@@ -73,7 +73,7 @@ export function BlogPage() {
       <section className="bg-gradient-to-r from-green-600 to-blue-600 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="mb-4 text-white">Irrigation Insights & Updates</h1>
-          <p className="text-xl max-w-3xl mx-auto">
+          <p className="text-xl max-w-3xl mx-auto text-secondary-text-light">
             Expert advice, success stories, and the latest trends in smart irrigation and precision agriculture
           </p>
         </div>
@@ -181,7 +181,7 @@ export function BlogPage() {
       <section className="bg-gradient-to-r from-green-600 to-blue-600 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="mb-4 text-white">Stay Updated</h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto">
+          <p className="text-xl mb-8 max-w-2xl mx-auto text-secondary-text-light">
             Subscribe to our newsletter for the latest irrigation tips, product updates, and exclusive offers
           </p>
           <div className="max-w-md mx-auto flex gap-4">
