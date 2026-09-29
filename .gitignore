@@ -1,4 +1,15 @@
+# Dependencies
 node_modules
+
+# Environment variables (contains passwords and secrets)
 .env
+.env.local
+.env.*.local
+
+# Build output
 dist
 package-lock.json
+
+# Note: public/products.json and public/assets/images/products/ ARE committed to git
+# These contain user-uploaded product data and images that need to be version controlled
+# and deployed to production

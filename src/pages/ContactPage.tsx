@@ -1,7 +1,19 @@
 import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Mail, Phone, MapPin, MessageCircle, Send } from 'lucide-react';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css';
+import L from 'leaflet';
+import icon from 'leaflet/dist/images/marker-icon.png';
+import iconShadow from 'leaflet/dist/images/marker-shadow.png';
+
+let DefaultIcon = L.icon({
+    iconUrl: icon,
+    shadowUrl: iconShadow,
+    iconAnchor: [12, 41]
+});
+L.Marker.prototype.options.icon = DefaultIcon;
 
 export function ContactPage() {
   const location = useLocation();
@@ -74,9 +86,8 @@ export function ContactPage() {
                 <div>
                   <h3 className="text-gray-900 mb-1">Head Office</h3>
                   <p className="text-gray-600 text-sm">
-                    123 Agriculture Boulevard<br />
-                    Tech Park, Innovation City<br />
-                    12345, USA
+                    Third eye agri automation<br />
+5/634-A, SELLAM KUDIYIRUPPU, UDUMALPET  642126.
                   </p>
                 </div>
               </div>
@@ -103,15 +114,15 @@ export function ContactPage() {
                 <div>
                   <h3 className="text-gray-900 mb-1">Email</h3>
                   <p className="text-gray-600 text-sm">
-                    <a href="mailto:info@agrosmart.com" className="hover:text-green-600">
-                      info@agrosmart.com
+                    <a href="mailto:thirdeyeagriautomation@gmail.com" className="hover:text-green-600">
+                      thirdeyeagriautomation@gmail.com
                     </a>
                   </p>
-                  <p className="text-gray-600 text-sm">
-                    <a href="mailto:support@agrosmart.com" className="hover:text-green-600">
-                      support@agrosmart.com
+                  {/* <p className="text-gray-600 text-sm">
+                    <a href="mailto:thirdeyeagriautomation@gmail.com" className="hover:text-green-600">
+                      thirdeyeagriautomation@gmail.com
                     </a>
-                  </p>
+                  </p> */}
                 </div>
               </div>
 
@@ -289,21 +300,19 @@ export function ContactPage() {
         {/* Map Section */}
         <div className="mt-16">
           <h2 className="mb-6 text-gray-900 text-center">Visit Our Head Office</h2>
-          <div className="bg-gray-200 rounded-lg overflow-hidden h-[400px] flex items-center justify-center">
-            <div className="text-center text-gray-600">
-              <MapPin className="w-12 h-12 mx-auto mb-4 text-gray-400" />
-              <p>123 Agriculture Boulevard, Tech Park</p>
-              <p className="text-sm mt-2">
-                <a
-                  href="https://maps.google.com/?q=123+Agriculture+Boulevard"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-green-600 hover:text-green-700"
-                >
-                  Open in Google Maps
-                </a>
-              </p>
-            </div>
+          <div className="bg-gray-200 rounded-lg overflow-hidden h-[400px] relative z-0">
+            <MapContainer center={[10.5736824, 77.2402697]} zoom={15} style={{ height: '100%', width: '100%', zIndex: 0 }}>
+              <TileLayer
+                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              />
+              <Marker position={[10.5736824, 77.2402697]}>
+                <Popup>
+                  <strong>Third eye agri automation</strong><br />
+                  5/634-A, SELLAM KUDIYIRUPPU, UDUMALPET 642126.
+                </Popup>
+              </Marker>
+            </MapContainer>
           </div>
         </div>
       </div>

@@ -76,7 +76,7 @@ export function HomePage() {
             <div>
               <h2 className="mb-6 text-gray-900">Revolutionizing Agriculture Through Technology</h2>
               <p className="text-gray-600 mb-6">
-                AgroSmart Solutions is a leading provider of smart irrigation and fertigation automation systems. 
+                Thirdeye Agri Automation is a leading provider of smart irrigation and fertigation automation systems. 
                 We combine cutting-edge IoT technology with agricultural expertise to help farmers optimize water usage, 
                 improve crop yields, and reduce operational costs.
               </p>
@@ -109,7 +109,7 @@ export function HomePage() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="mb-4 text-gray-900">Why Choose AgroSmart Solutions?</h2>
+            <h2 className="mb-4 text-gray-900">Why Choose Thirdeye Agri Automation?</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               We provide comprehensive irrigation solutions backed by years of expertise and innovative technology
             </p>

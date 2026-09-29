@@ -12,7 +12,7 @@ export function Footer() {
               <div className="bg-gradient-to-br from-green-500 to-blue-600 p-2 rounded-lg">
                 <Droplet className="w-5 h-5 text-white" />
               </div>
-              <span className="text-white">AgroSmart Solutions</span>
+              <span className="text-white">Thirdeye Agri Automation</span>
             </div>
             <p className="text-sm mb-4">
               Leading the future of sustainable agriculture with smart irrigation and fertigation automation systems.
@@ -63,7 +63,7 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
-                <span>123 Agriculture Boulevard, Tech Park, Innovation City, 12345</span>
+                <span>Third eye agri automation, 5/634-A, SELLAM KUDIYIRUPPU, UDUMALPET  642126.</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 flex-shrink-0" />
@@ -71,14 +71,14 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <a href="mailto:info@agrosmart.com" className="hover:text-green-500 transition-colors">info@agrosmart.com</a>
+                <a href="mailto:thirdeyeagriautomation@gmail.com" className="hover:text-green-500 transition-colors">thirdeyeagriautomation@gmail.com</a>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-sm text-center">
-          <p>&copy; {new Date().getFullYear()} AgroSmart Solutions. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Thirdeye Agri Automation. All rights reserved.</p>
         </div>
       </div>
     </footer>

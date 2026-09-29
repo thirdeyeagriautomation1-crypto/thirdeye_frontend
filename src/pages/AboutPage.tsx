@@ -62,7 +62,7 @@ export function AboutPage() {
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-          <h1 className="mb-4 text-white">About AgroSmart Solutions</h1>
+          <h1 className="mb-4 text-white">About Thirdeye Agri Automation</h1>
           <p className="text-xl max-w-3xl mx-auto">
             Leading the transformation of agriculture through innovative irrigation and automation technology
           </p>
@@ -76,7 +76,7 @@ export function AboutPage() {
             <div>
               <h2 className="mb-6 text-gray-900">Our Story</h2>
               <p className="text-gray-600 mb-4">
-                Founded in 2015, AgroSmart Solutions emerged from a simple observation: traditional irrigation methods 
+                Founded in 2015, Thirdeye Agri Automation emerged from a simple observation: traditional irrigation methods 
                 were wasting precious water resources while failing to meet the needs of modern agriculture. Our founders, 
                 a team of agricultural engineers and technology experts, set out to revolutionize how farmers manage water and nutrients.
               </p>

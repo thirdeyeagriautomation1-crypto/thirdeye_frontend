@@ -28,7 +28,7 @@ export function Navigation() {
               <Droplet className="w-6 h-6 text-white" />
             </div>
             <div>
-              <div className="text-gray-900">AgroSmart Solutions</div>
+              <div className="text-gray-900"> Thirdeye Agri Automation</div>
               <div className="text-xs text-gray-500">Smart Farming. Smarter Water.</div>
             </div>
           </Link>
